@@ -15,19 +15,22 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  - pip
+  - python>=3.8
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
   - jupyter-archive
   # Bash environment
-  - python>=3.8
-  - pip
-  - pip:
-    - bash_kernel
- # R packges
+  - bash_kernel
+  # R packages
   - r-irkernel
-  - r-base>=4
+  - r-base>=4.1.0
+  - r-tidyverse
+  - r-rcpp
   - r-tidyverse
   - r-factominer
-  - r-dt  
+  - r-factoextra
+  - r-dt
+  - r-repr
   - pip:
     - matplotlib
