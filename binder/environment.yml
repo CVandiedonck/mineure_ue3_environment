@@ -1,4 +1,4 @@
-name: plasmabio-Mineure_UE3
+name: Mineure_Recherche_en_santé_UE3
 # channels priority
 # see https://bioconda.github.io/
 # conda-forge has highest priority
@@ -26,11 +26,15 @@ dependencies:
   - r-irkernel
   - r-base>=4.1.0
   - r-tidyverse
+  - r-caret
+  - r-rpart
+  - r-rpart.plot
   - r-rcpp
-  - r-tidyverse
   - r-factominer
   - r-factoextra
   - r-dt
   - r-repr
+  - r-corrplot
+  - r-randomForest
   - pip:
     - matplotlib
